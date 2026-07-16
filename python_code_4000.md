@@ -9,3 +9,10 @@ a = 10
 b = 20
 print("Sum:", a + b)
 ```
+# 3. Take two numbers as input and print their difference.
+```
+a = 8
+b = 6
+c=a-b
+print(c)
+```
