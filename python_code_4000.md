@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Python-Programming-blue?style=for-the-badge&logo=python" />
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Level-Beginner%20to%20Advanced-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/License-MIT-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/MIT-red?style=for-the-badge" />
 </p>
 
 <h1 align="center">🚀 Welcome to My Python Practical Repository 🚀</h1>
