@@ -179,7 +179,7 @@ area = length * width
 print("Area:", area)
 ```
 # 11. Perimeter of a rectangle.
-```
+```python
 length = 6
 width = 5
 
