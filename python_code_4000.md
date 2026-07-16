@@ -165,5 +165,25 @@ print("b =", b)
 num = int(input("Enter a number: "))
 print("Square:", num ** 2)
 ```
+# 9. Find the cube of a number.
+```python
+a=2
+print(a*a*a)
+```
+# 10. Area of a rectangle
+```python
+length = 6
+width = 5
 
+area = length * width
+print("Area:", area)
+```
+# 11. Perimeter of a rectangle.
+```python
+length = 6
+width = 5
+
+perimeter = 2 * (length + width)
+print("Perimeter:", perimeter)
+```
 
