@@ -16,3 +16,17 @@ b = 6
 c=a-b
 print(c)
 ```
+# 4. Find two number multiplication.
+```
+a = 8
+b = 6
+c=a*b
+print(c)
+```
+# 5. Find the quotient of two numbers.
+```
+a = 8
+b = 6
+c=a/b
+print(c)
+```
