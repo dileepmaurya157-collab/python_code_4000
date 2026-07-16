@@ -110,37 +110,60 @@ Made with ❤️ using Python
 
 
 # 1. Create a variable age and store your age in it.
-```
+```python
 age = 20
 print("Age:", age)
 ```
 # 2. Add two numbers
-```
+```python
 a = 10
 b = 20
 print("Sum:", a + b)
 ```
 # 3. Take two numbers as input and print their difference.
-```
+```python
 a = 8
 b = 6
 c=a-b
 print(c)
 ```
 # 4. Find two number multiplication.
-```
+```python
 a = 8
 b = 6
 c=a*b
 print(c)
 ```
 # 5. Find the quotient of two numbers.
-```
+```python
 a = 8
 b = 6
 c=a/b
 print(c)
 ```
 # 6. Swap two numbers using a third variable.
+```python
+a=8
+b=6
+c=a
+a=b
+b=c
+print("a = ",a,"\nb = ",b)
 ```
+# 7. Swap two numbers without a third variable.
+```python
+a = 10
+b = 20
+
+a, b = b, a
+
+print("a =", a)
+print("b =", b)
+```
+# 8. Find the square of a number.
+```python
+num = int(input("Enter a number: "))
+print("Square:", num ** 2)
+```
+
 
