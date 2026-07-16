@@ -30,3 +30,6 @@ b = 6
 c=a/b
 print(c)
 ```
+# 6. Swap two numbers using a third variable.
+```
+
