@@ -192,5 +192,71 @@ radius = float(input("Enter radius: "))
 area = 3.14 * radius * radius
 print("Area:", area)
 ```
+# 13. Convert Celsius to Fahrenheit.
+```python
+celsius = float(input("Enter Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print("Fahrenheit:", fahrenheit)
+```
+# 14. Convert Fahrenheit to Celsius.
+ ```python
+ fahrenheit = float(input("Enter Fahrenheit: "))
+celsius = (fahrenheit - 32) * 5/9
+print("Celsius:", celsius)
+```
+# 15. Calculate simple interest.
+``` python 
+p = float(input("Principal: "))
+r = float(input("Rate: "))
+t = float(input("Time: "))
 
+si = (p * r * t) / 100
+print("Simple Interest:", si)
+```
+# 16. Average of three numbers.
+```python
+a = int(input())
+b = int(input())
+c = int(input())
 
+average = (a + b + c) / 3
+print("Average:", average)
+```
+# 17. Find the remainder.
+```python
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("Remainder:", a % b)
+```
+# 18. Display name, age, and city.
+```python
+name = input("Enter name: ")
+age = int(input("Enter age: "))
+city = input("Enter city: ")
+
+print("Name:", name)
+print("Age:", age)
+print("City:", city)
+```
+# 19. Total and percentage of five subjects.
+```python
+s1 = 70
+s2 = 60
+s3 = 90
+s4 = 60
+s5 = 65
+
+total = s1 + s2 + s3 + s4 + s5
+percentage = total / 5
+
+print("Total:", total)
+print("Percentage:", percentage)
+```
+# 20. Take a number as input and print its double and triple.
+```python
+num = 5
+
+print("Double:", num * 2)
+print("Triple:", num * 3)
+```
