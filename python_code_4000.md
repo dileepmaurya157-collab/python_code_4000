@@ -108,40 +108,44 @@ Made with ❤️ using Python
 </p>
 
 
-
-# 1. Create a variable age and store your age in it.
+# 1. Store your name in a variable and print it.
+```python 
+name = "Dileep"
+print("Name:", name)
+```
+# 2. Create a variable age and store your age in it.
 ```python
 age = 20
 print("Age:", age)
 ```
-# 2. Add two numbers
+# 3. Add two numbers
 ```python
 a = 10
 b = 20
 print("Sum:", a + b)
 ```
-# 3. Take two numbers as input and print their difference.
+# 4. Take two numbers as input and print their difference.
 ```python
 a = 8
 b = 6
 c=a-b
 print(c)
 ```
-# 4. Find two number multiplication.
+# 5. Find two number multiplication.
 ```python
 a = 8
 b = 6
 c=a*b
 print(c)
 ```
-# 5. Find the quotient of two numbers.
+# 6. Find the quotient of two numbers.
 ```python
 a = 8
 b = 6
 c=a/b
 print(c)
 ```
-# 6. Swap two numbers using a third variable.
+# 7. Swap two numbers using a third variable.
 ```python
 a=8
 b=6
@@ -150,7 +154,7 @@ a=b
 b=c
 print("a = ",a,"\nb = ",b)
 ```
-# 7. Swap two numbers without a third variable.
+# 8. Swap two numbers without a third variable.
 ```python
 a = 10
 b = 20
@@ -160,17 +164,17 @@ a, b = b, a
 print("a =", a)
 print("b =", b)
 ```
-# 8. Find the square of a number.
+# 9. Find the square of a number.
 ```python
 num = int(input("Enter a number: "))
 print("Square:", num ** 2)
 ```
-# 9. Find the cube of a number.
+# 10. Find the cube of a number.
 ```python
 a=2
 print(a*a*a)
 ```
-# 10. Area of a rectangle
+# 11. Area of a rectangle
 ```python
 length = 6
 width = 5
@@ -178,7 +182,7 @@ width = 5
 area = length * width
 print("Area:", area)
 ```
-# 11. Perimeter of a rectangle.
+# 12. Perimeter of a rectangle.
 ```python
 length = 6
 width = 5
@@ -186,25 +190,25 @@ width = 5
 perimeter = 2 * (length + width)
 print("Perimeter:", perimeter)
 ```
-# 12. Area of a circle.
+# 13. Area of a circle.
 ```python 
 radius = float(input("Enter radius: "))
 area = 3.14 * radius * radius
 print("Area:", area)
 ```
-# 13. Convert Celsius to Fahrenheit.
+# 14. Convert Celsius to Fahrenheit.
 ```python
 celsius = float(input("Enter Celsius: "))
 fahrenheit = (celsius * 9/5) + 32
 print("Fahrenheit:", fahrenheit)
 ```
-# 14. Convert Fahrenheit to Celsius.
+# 15. Convert Fahrenheit to Celsius.
  ```python
  fahrenheit = float(input("Enter Fahrenheit: "))
 celsius = (fahrenheit - 32) * 5/9
 print("Celsius:", celsius)
 ```
-# 15. Calculate simple interest.
+# 16. Calculate simple interest.
 ``` python 
 p = float(input("Principal: "))
 r = float(input("Rate: "))
@@ -213,7 +217,7 @@ t = float(input("Time: "))
 si = (p * r * t) / 100
 print("Simple Interest:", si)
 ```
-# 16. Average of three numbers.
+# 17. Average of three numbers.
 ```python
 a = int(input())
 b = int(input())
@@ -222,14 +226,14 @@ c = int(input())
 average = (a + b + c) / 3
 print("Average:", average)
 ```
-# 17. Find the remainder.
+# 18. Find the remainder.
 ```python
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 
 print("Remainder:", a % b)
 ```
-# 18. Display name, age, and city.
+# 19. Display name, age, and city.
 ```python
 name = input("Enter name: ")
 age = int(input("Enter age: "))
@@ -239,7 +243,7 @@ print("Name:", name)
 print("Age:", age)
 print("City:", city)
 ```
-# 19. Total and percentage of five subjects.
+# 20. Total and percentage of five subjects.
 ```python
 s1 = 70
 s2 = 60
@@ -253,10 +257,37 @@ percentage = total / 5
 print("Total:", total)
 print("Percentage:", percentage)
 ```
-# 20. Take a number as input and print its double and triple.
+# 21. Take a number as input and print its double and triple.
 ```python
 num = 5
 
 print("Double:", num * 2)
 print("Triple:", num * 3)
 ```
+# Input/Output (22–41) 
+
+# 22. Take your name as input and print it.
+```python
+name = input("Enter your name: ")
+print("Name =", name)
+```
+# 23. Take your age as input and print it.
+```python
+age = int(input("Enter age: "))
+print("Age =", age)
+```
+# 24. Take two numbers and print their sum.
+```python
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+print("Sum =", a + b)
+```
+# 25. Take three numbers and print the largest.
+```python
+a = 6
+b = 5
+c = 4
+print(max(a, b, c))
+```
+# 26. Take three numbers and print the smal.
