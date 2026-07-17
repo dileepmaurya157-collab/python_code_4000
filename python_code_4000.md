@@ -186,4 +186,11 @@ width = 5
 perimeter = 2 * (length + width)
 print("Perimeter:", perimeter)
 ```
+# 12. Area of a circle.
+```python 
+radius = float(input("Enter radius: "))
+area = 3.14 * radius * radius
+print("Area:", area)
+```
+
 
