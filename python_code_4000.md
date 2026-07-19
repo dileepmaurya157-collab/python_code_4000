@@ -291,3 +291,44 @@ c = 4
 print(max(a, b, c))
 ```
 # 26. Take three numbers and print the smal.
+```python
+a = 4
+b = 7
+c = 2
+print(min(a,b,c))
+```
+# 27. Print your full address.
+```python 
+address = input("Enter Address: ")
+print(address)
+```
+# 28. Print your collage name.
+```python
+collage = input("collage Name: ")
+print(collage)
+```
+# 29. Print your favorite subject.
+```python
+subject = input("Favorite Subject: ")
+print(subject)
+```
+# 30. Print your favorite programming language.
+```python
+language = input("Favorite Language: ")
+print(language)
+```
+# 31. Take a number and print its double. 
+```python
+num = int(input("Enter Number: "))
+print("Double =", num * 2)
+```
+# 32. Take five subject marks and print the total.
+```python
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+d = int(input("Enter fourth number: "))
+e = int(input("Enter fifth number: "))
+
+print("Total =", a + b + c + d + e)
+```
