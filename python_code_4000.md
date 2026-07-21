@@ -356,4 +356,80 @@ print(city)
 mobile = input("Enter mobile number:")
 print(mobile)
 ```
-# 36. 
+# TUPLE PROGRAM
+
+# 1. Create a tuple of five numbers.
+```python
+ numbers = (10, 20, 30, 40, 50)
+
+print(numbers)
+```
+# 2. Print the first and last elements.
+```python
+numbers = (10, 20, 30, 40, 50)
+
+print("First Element:", numbers[0])
+print("Last Element:", numbers[-1])
+```
+# 3. Find the length of a tuple.
+```python
+numbers = (10, 20, 30, 40, 50)
+
+print("Length:", len(numbers))
+```
+# 4. Count how many times 10 appears.
+```python
+numbers = (10, 20, 10, 30, 10, 40)
+
+print("Count of 10:", numbers.count(10))
+```
+# 5. Find the index of 30.
+```python
+numbers = (10, 20, 30, 40, 50)
+
+print("Index of 30:", numbers.index(30))
+```
+# 6. Concatenate two tuples.
+```python
+tuple1 = (10, 20, 30)
+tuple2 = (40, 50, 60)
+
+result = tuple1 + tuple2
+
+print(result)
+```
+# 7. Repeat a tuple three times.
+```python
+numbers = (1, 2, 3)
+
+result = numbers * 3
+
+print(result)
+```
+# 8. Convert a list to a tuple.
+```python
+list = [10, 20, 30, 40]
+
+tuple = tuple(list)
+
+print(tuple)
+```
+# 9. Convert a tuple to a list and add a new element.
+```python
+tuple = (10, 20, 30)
+
+list = list(tuple)
+
+list.append(40)
+
+print(list)
+```
+# 10. Find the maximum, minimum, and sum of a tuple.
+```python
+numbers = (10, 20, 30, 40, 50)
+
+print("Maximum:", max(numbers))
+print("Minimum:", min(numbers))
+print("Sum:", sum(numbers))
+```
+
