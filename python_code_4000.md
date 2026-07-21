@@ -332,3 +332,28 @@ e = int(input("Enter fifth number: "))
 
 print("Total =", a + b + c + d + e)
 ```
+# 33. Take five subject marks and print the percentage.
+```python
+a = int(input("Enter marks 1: "))
+b = int(input("Enter marks 2: "))
+c = int(input("Enter marks 3: "))
+d = int(input("Enter marks 4: "))
+e = int(input("Enter marks 5: "))
+
+total = a + b + c + d + e
+percentage = total / 5
+
+print("Total =", total)
+print("Percentage =", percentage)
+```
+# 34. Take your city name and print it.
+```python
+city = input("Enter City: ")
+print(city)
+```
+# 35. Take your mobile number and print it.
+```python
+mobile = input("Enter mobile number:")
+print(mobile)
+```
+# 36. 
