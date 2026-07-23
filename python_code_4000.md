@@ -478,3 +478,69 @@ numbers = [10, 20, 40, 50]
 numbers.insert(2, 30)
 
 print(numbers)
+```
+# 9. Add multiple elements to a list using extend().
+```python
+numbers = [10, 20, 40, 50]
+numbers.extend([2, 3])
+print(numbers)
+```
+# 10. Concatenate two lists using the + operator.
+```python
+numbers1 = [10, 20, 40, 50]
+numbers2 = [4,7,9,4]
+
+result = [numbers1+numbers2] 
+
+print(result)
+```
+# 11. Remove an element by value using remove().
+```python
+numbers = [10, 20, 40, 50]
+numbers.remove(50)
+
+print(numbers)
+```
+# 12. Remove the last element using pop().
+```python
+numbers = [10, 20, 40, 50]
+numbers.pop()
+
+print(numbers)
+```
+# 13. Remove an element at a specific index using pop(index).
+```python
+numbers = [3,5,7,8,2]
+numbers.pop(3)
+
+print(numbers)
+```
+# 14. Delete an element using del.\
+```python
+numbers = [22,30,45,67,3,4,6]
+
+del numbers[4]
+
+print(numbers)
+```
+# 15. Clear all elements from a list using clear().
+```python
+numbers = [22,30,45,67,3,4,6]
+
+numbers.clear()
+
+print(numbers)
+```
+# 16. Count how many times an element appears using count().
+```python
+numbers = [22,30,45,67,3,4,6]
+
+print(numbers.count(3))
+```
+# 17. Find the index of an element using index().
+```python
+numbers = [22,30,45,67,3,4,6]
+
+print(numbers.index(3))
+```
+
