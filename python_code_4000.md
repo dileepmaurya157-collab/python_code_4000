@@ -465,4 +465,16 @@ print(list[2])
 numbers = [10, 20, 30, 40, 50]
 print("length:",len(numbers))
 ```
-# 
+# 7. Add an element to the end of a list using append().
+```python
+x = [10, 20, 30]
+x.append(40)
+
+print(x)
+```
+# 8. Insert an element at index 2 using insert().
+```python
+numbers = [10, 20, 40, 50]
+numbers.insert(2, 30)
+
+print(numbers)
