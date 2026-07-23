@@ -432,4 +432,37 @@ print("Maximum:", max(numbers))
 print("Minimum:", min(numbers))
 print("Sum:", sum(numbers))
 ```
+# Python List Operations Practice
 
+# 1. Create a list of 5 integers and print it.
+
+```python
+list = [2,25,3,45,7]
+print(list)
+```
+# 2. Create a list of 5 names and print it.
+```python
+list = ["Shivam","Dileep","Suraj","Magan","Prince"]
+print(list)
+```
+# 3. Print the first element of a list.
+```python
+list = [2,4,8,9,0,3]
+print(list[0])
+```
+# 4. Print the last element of a list.
+```python
+list = [3,6,8,9,0,4]
+print(list[-1])
+```
+# 5. Print the middle element of a list.
+```python
+list = [1,4,6,7,4]
+print(list[2])
+```
+# 6. Print the length of a list using len().
+```python
+numbers = [10, 20, 30, 40, 50]
+print("length:",len(numbers))
+```
+# 
