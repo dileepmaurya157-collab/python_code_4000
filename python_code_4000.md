@@ -515,7 +515,7 @@ numbers.pop(3)
 
 print(numbers)
 ```
-# 14. Delete an element using del.\
+# 14. Delete an element using del.
 ```python
 numbers = [22,30,45,67,3,4,6]
 
